@@ -1,0 +1,22 @@
+# lein-fail-fast
+
+Stop a testing run when the first test failure is received.
+
+This is especially useful in a build server situation where you don't need to
+finish out a test run once you know your tests have failed.
+
+## Usage
+
+Add as a development dependency to your lein project.clj, and turn on the
+LEIN_FAIL_FAST environment variable in your build environment.
+
+## Installation
+
+Add lein-fail-fast as a development dependency to your lein project.clj and
+robert-hooke as a non-dev dependency.
+
+## License
+
+Copyright (C) 2010 Paul Stadig
+
+Distributed under the Eclipse Public License, the same as Clojure.
